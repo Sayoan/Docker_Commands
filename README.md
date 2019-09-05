@@ -101,7 +101,7 @@ Check the docker IMAGE ID
 
     docker images
 
-Now lets run the containter
+Now lets run the container
 
     docker run -t -i IMAGE_ID /bin/bash
 
