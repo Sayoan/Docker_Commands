@@ -110,10 +110,23 @@ We are inside container \o/
 
 ## Examples
 
-docker kill ID //matar
 
-docker exec -it [container-id] bash
+- **Important**
 
-docker ps -a 
+We have N images and N containers, to see every image the container can take on:
+
+>docker images -a
+
+Each image can be in more than one container. To see containers that are running:
+
+>docker ps -a
+
+To kill each container:
+
+>docker kill ID 
+
+Open running container:
+
+>docker exec -it [container-id] bash
 
 
