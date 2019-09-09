@@ -95,7 +95,7 @@ Push a image to dockerhub
     docker push usuario/reponame:tagname
 
 
-#### Pull Docker from DockerHub
+### Pull Docker from DockerHub
 
     docker pull sayoan/dotnetcore_22_chrome:1.0
 Check the docker IMAGE ID
@@ -141,3 +141,6 @@ remove all docker images
 
 exit from container
 >exit
+
+download if dont exist image(if exist, only run) and run
+>docker container run IMAGE_ID
