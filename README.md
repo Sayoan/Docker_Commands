@@ -139,3 +139,5 @@ remove all containers
 remove all docker images
 >docker rmi $(docker images -q)
 
+exit from container
+>exit
