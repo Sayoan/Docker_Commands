@@ -95,7 +95,7 @@ Push a image to dockerhub
     docker push usuario/reponame:tagname
 
 
-### Pull Docker from DockerHub
+## Pull Docker from DockerHub
 
     docker pull sayoan/dotnetcore_22_chrome:1.0
 Check the docker IMAGE ID
