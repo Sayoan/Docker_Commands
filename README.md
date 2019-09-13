@@ -144,3 +144,6 @@ exit from container
 
 download if dont exist image(if exist, only run) and run
 >docker container run IMAGE_ID
+
+open again the container
+>docker start -a -i CONTAINER_ID
